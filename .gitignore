@@ -1,0 +1,33 @@
+# Terraform: state and plans can hold resource ids and secrets; never commit them.
+# The provider lock file (.terraform.lock.hcl) IS committed on purpose.
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tf.plan
+plan.json
+crash.log
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / Node / build artefacts
+.venv*/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.pytest_cache/
+
+# Generated cost reports and local outputs
+*.docx
+cost/out/

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "exact-01",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-01-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-01-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Kubernetes."
+      }
+    ]
+  },
+  {
+    "id": "alias-01",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-01-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-01-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using K8s."
+      }
+    ]
+  },
+  {
+    "id": "negated-01",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-01-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-01-p2",
+        "page": 2,
+        "text": "Observed a demo of Kubernetes but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-01",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-01-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-01-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-01",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-01-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-01-p2",
+        "page": 2,
+        "text": "Implemented Kubernetes in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-02",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-02-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-02-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": "alias-02",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-02-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-02-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using Postgres."
+      }
+    ]
+  },
+  {
+    "id": "negated-02",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-02-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-02-p2",
+        "page": 2,
+        "text": "Observed a demo of PostgreSQL but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-02",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-02-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-02-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-02",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-02-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-02-p2",
+        "page": 2,
+        "text": "Implemented PostgreSQL in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-03",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-03-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-03-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Amazon S3."
+      }
+    ]
+  },
+  {
+    "id": "alias-03",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-03-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-03-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using S3."
+      }
+    ]
+  },
+  {
+    "id": "negated-03",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-03-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-03-p2",
+        "page": 2,
+        "text": "Observed a demo of Amazon S3 but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-03",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-03-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-03-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-03",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-03-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-03-p2",
+        "page": 2,
+        "text": "Implemented Amazon S3 in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-04",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-04-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-04-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using SAP Integration Suite."
+      }
+    ]
+  },
+  {
+    "id": "alias-04",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-04-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-04-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using SAP CPI."
+      }
+    ]
+  },
+  {
+    "id": "negated-04",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-04-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-04-p2",
+        "page": 2,
+        "text": "Observed a demo of SAP Integration Suite but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-04",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-04-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-04-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-04",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-04-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-04-p2",
+        "page": 2,
+        "text": "Implemented SAP Integration Suite in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-05",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-05-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-05-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using continuous integration."
+      }
+    ]
+  },
+  {
+    "id": "alias-05",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-05-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-05-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using CI."
+      }
+    ]
+  },
+  {
+    "id": "negated-05",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-05-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-05-p2",
+        "page": 2,
+        "text": "Observed a demo of continuous integration but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-05",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-05-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-05-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-05",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-05-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-05-p2",
+        "page": 2,
+        "text": "Implemented continuous integration in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-06",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-06-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-06-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using infrastructure as code."
+      }
+    ]
+  },
+  {
+    "id": "alias-06",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-06-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-06-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using IaC."
+      }
+    ]
+  },
+  {
+    "id": "negated-06",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-06-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-06-p2",
+        "page": 2,
+        "text": "Observed a demo of infrastructure as code but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-06",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-06-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-06-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-06",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-06-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-06-p2",
+        "page": 2,
+        "text": "Implemented infrastructure as code in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-07",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-07-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-07-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using single sign-on."
+      }
+    ]
+  },
+  {
+    "id": "alias-07",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-07-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-07-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using SSO."
+      }
+    ]
+  },
+  {
+    "id": "negated-07",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-07-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-07-p2",
+        "page": 2,
+        "text": "Observed a demo of single sign-on but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-07",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-07-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-07-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-07",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-07-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-07-p2",
+        "page": 2,
+        "text": "Implemented single sign-on in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-08",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-08-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-08-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using disaster recovery."
+      }
+    ]
+  },
+  {
+    "id": "alias-08",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-08-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-08-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using DR."
+      }
+    ]
+  },
+  {
+    "id": "negated-08",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-08-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-08-p2",
+        "page": 2,
+        "text": "Observed a demo of disaster recovery but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-08",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-08-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-08-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-08",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-08-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-08-p2",
+        "page": 2,
+        "text": "Implemented disaster recovery in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-09",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-09-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-09-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Apache Kafka."
+      }
+    ]
+  },
+  {
+    "id": "alias-09",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-09-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-09-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using Kafka."
+      }
+    ]
+  },
+  {
+    "id": "negated-09",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-09-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-09-p2",
+        "page": 2,
+        "text": "Observed a demo of Apache Kafka but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-09",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-09-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-09-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-09",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-09-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-09-p2",
+        "page": 2,
+        "text": "Implemented Apache Kafka in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-10",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-10-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-10-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using access control."
+      }
+    ]
+  },
+  {
+    "id": "alias-10",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-10-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-10-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using RBAC."
+      }
+    ]
+  },
+  {
+    "id": "negated-10",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-10-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-10-p2",
+        "page": 2,
+        "text": "Observed a demo of access control but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-10",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-10-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-10-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-10",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-10-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-10-p2",
+        "page": 2,
+        "text": "Implemented access control in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-11",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-11-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-11-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Optical Character Recognition."
+      }
+    ]
+  },
+  {
+    "id": "alias-11",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-11-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-11-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using OCR."
+      }
+    ]
+  },
+  {
+    "id": "negated-11",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-11-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-11-p2",
+        "page": 2,
+        "text": "Observed a demo of Optical Character Recognition but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-11",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-11-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-11-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-11",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-11-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-11-p2",
+        "page": 2,
+        "text": "Implemented Optical Character Recognition in production and trained the support team."
+      }
+    ]
+  },
+  {
+    "id": "exact-12",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "exact-12-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "exact-12-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using OpenID Connect."
+      }
+    ]
+  },
+  {
+    "id": "alias-12",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "alias-12-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "alias-12-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using OIDC."
+      }
+    ]
+  },
+  {
+    "id": "negated-12",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "negated-12-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "negated-12-p2",
+        "page": 2,
+        "text": "Observed a demo of OpenID Connect but did not use it on a project."
+      }
+    ]
+  },
+  {
+    "id": "unrelated-12",
+    "tenant": "tenant-a",
+    "pages": [
+      {
+        "id": "unrelated-12-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "unrelated-12-p2",
+        "page": 2,
+        "text": "Documented support handovers and tracked the issue backlog."
+      }
+    ]
+  },
+  {
+    "id": "restricted-12",
+    "tenant": "tenant-b",
+    "pages": [
+      {
+        "id": "restricted-12-p1",
+        "page": 1,
+        "text": "Synthetic profile. Responsibilities and evidence follow."
+      },
+      {
+        "id": "restricted-12-p2",
+        "page": 2,
+        "text": "Implemented OpenID Connect in production and trained the support team."
+      }
+    ]
+  }
+]

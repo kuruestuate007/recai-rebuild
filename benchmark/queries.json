@@ -1,0 +1,986 @@
+[
+  {
+    "id": "exact-01",
+    "split": "development",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-01"
+    ],
+    "question": "Where does this resume show hands-on Kubernetes experience?",
+    "expected": [
+      {
+        "id": "exact-01-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Kubernetes."
+      }
+    ]
+  },
+  {
+    "id": "alias-01",
+    "split": "development",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-01"
+    ],
+    "question": "Find evidence of practical experience with Kubernetes.",
+    "expected": [
+      {
+        "id": "alias-01-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using K8s."
+      }
+    ]
+  },
+  {
+    "id": "distractors-01",
+    "split": "development",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-01",
+      "alias-01",
+      "negated-01",
+      "unrelated-01"
+    ],
+    "question": "Which passages show hands-on experience with Kubernetes?",
+    "expected": [
+      {
+        "id": "exact-01-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Kubernetes."
+      },
+      {
+        "id": "alias-01-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using K8s."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-01",
+    "split": "development",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-01",
+      "unrelated-01"
+    ],
+    "question": "Did this candidate use Kubernetes on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-01",
+    "split": "development",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-01"
+    ],
+    "question": "Find the production evidence for Kubernetes.",
+    "expected": []
+  },
+  {
+    "id": "exact-02",
+    "split": "development",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-02"
+    ],
+    "question": "Where does this resume show hands-on PostgreSQL experience?",
+    "expected": [
+      {
+        "id": "exact-02-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": "alias-02",
+    "split": "development",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-02"
+    ],
+    "question": "Find evidence of practical experience with PostgreSQL.",
+    "expected": [
+      {
+        "id": "alias-02-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using Postgres."
+      }
+    ]
+  },
+  {
+    "id": "distractors-02",
+    "split": "development",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-02",
+      "alias-02",
+      "negated-02",
+      "unrelated-02"
+    ],
+    "question": "Which passages show hands-on experience with PostgreSQL?",
+    "expected": [
+      {
+        "id": "exact-02-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using PostgreSQL."
+      },
+      {
+        "id": "alias-02-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using Postgres."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-02",
+    "split": "development",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-02",
+      "unrelated-02"
+    ],
+    "question": "Did this candidate use PostgreSQL on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-02",
+    "split": "development",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-02"
+    ],
+    "question": "Find the production evidence for PostgreSQL.",
+    "expected": []
+  },
+  {
+    "id": "exact-03",
+    "split": "development",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-03"
+    ],
+    "question": "Where does this resume show hands-on Amazon S3 experience?",
+    "expected": [
+      {
+        "id": "exact-03-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Amazon S3."
+      }
+    ]
+  },
+  {
+    "id": "alias-03",
+    "split": "development",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-03"
+    ],
+    "question": "Find evidence of practical experience with Amazon S3.",
+    "expected": [
+      {
+        "id": "alias-03-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using S3."
+      }
+    ]
+  },
+  {
+    "id": "distractors-03",
+    "split": "development",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-03",
+      "alias-03",
+      "negated-03",
+      "unrelated-03"
+    ],
+    "question": "Which passages show hands-on experience with Amazon S3?",
+    "expected": [
+      {
+        "id": "exact-03-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Amazon S3."
+      },
+      {
+        "id": "alias-03-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using S3."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-03",
+    "split": "development",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-03",
+      "unrelated-03"
+    ],
+    "question": "Did this candidate use Amazon S3 on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-03",
+    "split": "development",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-03"
+    ],
+    "question": "Find the production evidence for Amazon S3.",
+    "expected": []
+  },
+  {
+    "id": "exact-04",
+    "split": "development",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-04"
+    ],
+    "question": "Where does this resume show hands-on SAP Integration Suite experience?",
+    "expected": [
+      {
+        "id": "exact-04-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using SAP Integration Suite."
+      }
+    ]
+  },
+  {
+    "id": "alias-04",
+    "split": "development",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-04"
+    ],
+    "question": "Find evidence of practical experience with SAP Integration Suite.",
+    "expected": [
+      {
+        "id": "alias-04-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using SAP CPI."
+      }
+    ]
+  },
+  {
+    "id": "distractors-04",
+    "split": "development",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-04",
+      "alias-04",
+      "negated-04",
+      "unrelated-04"
+    ],
+    "question": "Which passages show hands-on experience with SAP Integration Suite?",
+    "expected": [
+      {
+        "id": "exact-04-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using SAP Integration Suite."
+      },
+      {
+        "id": "alias-04-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using SAP CPI."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-04",
+    "split": "development",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-04",
+      "unrelated-04"
+    ],
+    "question": "Did this candidate use SAP Integration Suite on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-04",
+    "split": "development",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-04"
+    ],
+    "question": "Find the production evidence for SAP Integration Suite.",
+    "expected": []
+  },
+  {
+    "id": "exact-05",
+    "split": "development",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-05"
+    ],
+    "question": "Where does this resume show hands-on continuous integration experience?",
+    "expected": [
+      {
+        "id": "exact-05-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using continuous integration."
+      }
+    ]
+  },
+  {
+    "id": "alias-05",
+    "split": "development",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-05"
+    ],
+    "question": "Find evidence of practical experience with continuous integration.",
+    "expected": [
+      {
+        "id": "alias-05-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using CI."
+      }
+    ]
+  },
+  {
+    "id": "distractors-05",
+    "split": "development",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-05",
+      "alias-05",
+      "negated-05",
+      "unrelated-05"
+    ],
+    "question": "Which passages show hands-on experience with continuous integration?",
+    "expected": [
+      {
+        "id": "exact-05-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using continuous integration."
+      },
+      {
+        "id": "alias-05-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using CI."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-05",
+    "split": "development",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-05",
+      "unrelated-05"
+    ],
+    "question": "Did this candidate use continuous integration on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-05",
+    "split": "development",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-05"
+    ],
+    "question": "Find the production evidence for continuous integration.",
+    "expected": []
+  },
+  {
+    "id": "exact-06",
+    "split": "development",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-06"
+    ],
+    "question": "Where does this resume show hands-on infrastructure as code experience?",
+    "expected": [
+      {
+        "id": "exact-06-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using infrastructure as code."
+      }
+    ]
+  },
+  {
+    "id": "alias-06",
+    "split": "development",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-06"
+    ],
+    "question": "Find evidence of practical experience with infrastructure as code.",
+    "expected": [
+      {
+        "id": "alias-06-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using IaC."
+      }
+    ]
+  },
+  {
+    "id": "distractors-06",
+    "split": "development",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-06",
+      "alias-06",
+      "negated-06",
+      "unrelated-06"
+    ],
+    "question": "Which passages show hands-on experience with infrastructure as code?",
+    "expected": [
+      {
+        "id": "exact-06-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using infrastructure as code."
+      },
+      {
+        "id": "alias-06-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using IaC."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-06",
+    "split": "development",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-06",
+      "unrelated-06"
+    ],
+    "question": "Did this candidate use infrastructure as code on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-06",
+    "split": "development",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-06"
+    ],
+    "question": "Find the production evidence for infrastructure as code.",
+    "expected": []
+  },
+  {
+    "id": "exact-07",
+    "split": "holdout",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-07"
+    ],
+    "question": "Where does this resume show hands-on single sign-on experience?",
+    "expected": [
+      {
+        "id": "exact-07-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using single sign-on."
+      }
+    ]
+  },
+  {
+    "id": "alias-07",
+    "split": "holdout",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-07"
+    ],
+    "question": "Find evidence of practical experience with single sign-on.",
+    "expected": [
+      {
+        "id": "alias-07-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using SSO."
+      }
+    ]
+  },
+  {
+    "id": "distractors-07",
+    "split": "holdout",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-07",
+      "alias-07",
+      "negated-07",
+      "unrelated-07"
+    ],
+    "question": "Which passages show hands-on experience with single sign-on?",
+    "expected": [
+      {
+        "id": "exact-07-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using single sign-on."
+      },
+      {
+        "id": "alias-07-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using SSO."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-07",
+    "split": "holdout",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-07",
+      "unrelated-07"
+    ],
+    "question": "Did this candidate use single sign-on on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-07",
+    "split": "holdout",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-07"
+    ],
+    "question": "Find the production evidence for single sign-on.",
+    "expected": []
+  },
+  {
+    "id": "exact-08",
+    "split": "holdout",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-08"
+    ],
+    "question": "Where does this resume show hands-on disaster recovery experience?",
+    "expected": [
+      {
+        "id": "exact-08-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using disaster recovery."
+      }
+    ]
+  },
+  {
+    "id": "alias-08",
+    "split": "holdout",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-08"
+    ],
+    "question": "Find evidence of practical experience with disaster recovery.",
+    "expected": [
+      {
+        "id": "alias-08-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using DR."
+      }
+    ]
+  },
+  {
+    "id": "distractors-08",
+    "split": "holdout",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-08",
+      "alias-08",
+      "negated-08",
+      "unrelated-08"
+    ],
+    "question": "Which passages show hands-on experience with disaster recovery?",
+    "expected": [
+      {
+        "id": "exact-08-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using disaster recovery."
+      },
+      {
+        "id": "alias-08-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using DR."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-08",
+    "split": "holdout",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-08",
+      "unrelated-08"
+    ],
+    "question": "Did this candidate use disaster recovery on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-08",
+    "split": "holdout",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-08"
+    ],
+    "question": "Find the production evidence for disaster recovery.",
+    "expected": []
+  },
+  {
+    "id": "exact-09",
+    "split": "holdout",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-09"
+    ],
+    "question": "Where does this resume show hands-on Apache Kafka experience?",
+    "expected": [
+      {
+        "id": "exact-09-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Apache Kafka."
+      }
+    ]
+  },
+  {
+    "id": "alias-09",
+    "split": "holdout",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-09"
+    ],
+    "question": "Find evidence of practical experience with Apache Kafka.",
+    "expected": [
+      {
+        "id": "alias-09-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using Kafka."
+      }
+    ]
+  },
+  {
+    "id": "distractors-09",
+    "split": "holdout",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-09",
+      "alias-09",
+      "negated-09",
+      "unrelated-09"
+    ],
+    "question": "Which passages show hands-on experience with Apache Kafka?",
+    "expected": [
+      {
+        "id": "exact-09-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Apache Kafka."
+      },
+      {
+        "id": "alias-09-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using Kafka."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-09",
+    "split": "holdout",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-09",
+      "unrelated-09"
+    ],
+    "question": "Did this candidate use Apache Kafka on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-09",
+    "split": "holdout",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-09"
+    ],
+    "question": "Find the production evidence for Apache Kafka.",
+    "expected": []
+  },
+  {
+    "id": "exact-10",
+    "split": "holdout",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-10"
+    ],
+    "question": "Where does this resume show hands-on access control experience?",
+    "expected": [
+      {
+        "id": "exact-10-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using access control."
+      }
+    ]
+  },
+  {
+    "id": "alias-10",
+    "split": "holdout",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-10"
+    ],
+    "question": "Find evidence of practical experience with access control.",
+    "expected": [
+      {
+        "id": "alias-10-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using RBAC."
+      }
+    ]
+  },
+  {
+    "id": "distractors-10",
+    "split": "holdout",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-10",
+      "alias-10",
+      "negated-10",
+      "unrelated-10"
+    ],
+    "question": "Which passages show hands-on experience with access control?",
+    "expected": [
+      {
+        "id": "exact-10-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using access control."
+      },
+      {
+        "id": "alias-10-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using RBAC."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-10",
+    "split": "holdout",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-10",
+      "unrelated-10"
+    ],
+    "question": "Did this candidate use access control on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-10",
+    "split": "holdout",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-10"
+    ],
+    "question": "Find the production evidence for access control.",
+    "expected": []
+  },
+  {
+    "id": "exact-11",
+    "split": "holdout",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-11"
+    ],
+    "question": "Where does this resume show hands-on Optical Character Recognition experience?",
+    "expected": [
+      {
+        "id": "exact-11-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Optical Character Recognition."
+      }
+    ]
+  },
+  {
+    "id": "alias-11",
+    "split": "holdout",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-11"
+    ],
+    "question": "Find evidence of practical experience with Optical Character Recognition.",
+    "expected": [
+      {
+        "id": "alias-11-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using OCR."
+      }
+    ]
+  },
+  {
+    "id": "distractors-11",
+    "split": "holdout",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-11",
+      "alias-11",
+      "negated-11",
+      "unrelated-11"
+    ],
+    "question": "Which passages show hands-on experience with Optical Character Recognition?",
+    "expected": [
+      {
+        "id": "exact-11-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using Optical Character Recognition."
+      },
+      {
+        "id": "alias-11-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using OCR."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-11",
+    "split": "holdout",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-11",
+      "unrelated-11"
+    ],
+    "question": "Did this candidate use Optical Character Recognition on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-11",
+    "split": "holdout",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-11"
+    ],
+    "question": "Find the production evidence for Optical Character Recognition.",
+    "expected": []
+  },
+  {
+    "id": "exact-12",
+    "split": "holdout",
+    "kind": "exact",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-12"
+    ],
+    "question": "Where does this resume show hands-on OpenID Connect experience?",
+    "expected": [
+      {
+        "id": "exact-12-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using OpenID Connect."
+      }
+    ]
+  },
+  {
+    "id": "alias-12",
+    "split": "holdout",
+    "kind": "alias",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "alias-12"
+    ],
+    "question": "Find evidence of practical experience with OpenID Connect.",
+    "expected": [
+      {
+        "id": "alias-12-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using OIDC."
+      }
+    ]
+  },
+  {
+    "id": "distractors-12",
+    "split": "holdout",
+    "kind": "distractors",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "exact-12",
+      "alias-12",
+      "negated-12",
+      "unrelated-12"
+    ],
+    "question": "Which passages show hands-on experience with OpenID Connect?",
+    "expected": [
+      {
+        "id": "exact-12-p2",
+        "page": 2,
+        "text": "Built and operated a production workflow using OpenID Connect."
+      },
+      {
+        "id": "alias-12-p2",
+        "page": 2,
+        "text": "Maintained a production workflow using OIDC."
+      }
+    ]
+  },
+  {
+    "id": "no-evidence-12",
+    "split": "holdout",
+    "kind": "no-evidence",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "negated-12",
+      "unrelated-12"
+    ],
+    "question": "Did this candidate use OpenID Connect on a project? Cite evidence if present.",
+    "expected": []
+  },
+  {
+    "id": "cross-tenant-12",
+    "split": "holdout",
+    "kind": "cross-tenant",
+    "tenant": "tenant-a",
+    "allowedDocuments": [
+      "restricted-12"
+    ],
+    "question": "Find the production evidence for OpenID Connect.",
+    "expected": []
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "Full internal product, lean: Haiku 5.5 first, batch and cached prompts (5,000 resumes, 5,000 screenings, 3,000 chat queries a month)",
+  "api_requests": 40000,
+  "lambda_invocations": 60000,
+  "lambda_avg_seconds": 1.5,
+  "lambda_memory_gb": 1.0,
+  "lambda_arm": true,
+  "ddb_reads": 1500000,
+  "ddb_writes": 400000,
+  "ddb_gb": 3,
+  "s3_gb": 40,
+  "docs_per_month": 5000,
+  "vectors_per_doc": 6,
+  "dims": 1024,
+  "tokens_per_doc": 3000,
+  "searches": 10000,
+  "vector_retention_months": 12,
+  "cognito_mau": 20,
+  "sqs_requests": 60000,
+  "logs_gb": 2.0,
+  "alarms": 8,
+  "waf_acls": 1,
+  "waf_rules": 2,
+  "claude": [
+    {"name": "Screening, first pass", "model": "haiku-5-5", "calls": 5000, "in_tokens": 4500, "out_tokens": 700, "batch": true, "cached_fraction": 0.3},
+    {"name": "Screening, second look at 20 percent", "model": "sonnet-5-5", "calls": 1000, "in_tokens": 4500, "out_tokens": 700, "batch": true, "cached_fraction": 0.3},
+    {"name": "Portal chat", "model": "haiku-5-5", "calls": 3000, "in_tokens": 5000, "out_tokens": 500},
+    {"name": "Resume conversion", "model": "haiku-5-5", "calls": 500, "in_tokens": 6000, "out_tokens": 2500}
+  ]
+}
