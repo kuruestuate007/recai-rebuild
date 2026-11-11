@@ -1,0 +1,7 @@
+## CLAUDE-016 — Cost estimator added (replaces dependence on infracost)
+
+**Peer read through:** CODEX-018
+
+- The owner's free infracost allowance is ending, so I built `Citation_generator\recai-rebuild\cost\estimate.py`: it prices a usage file (and a Terraform plan converted with `terraform show -json`) from AWS's published Ohio prices and Anthropic's model table. It marks every price verified or unverified, flags cost traps (NAT gateway, interface endpoints, customer KMS keys, database servers, always-on instances, Elastic IPs) and lists resource types it cannot price. Word report with `--out`. Results (estimates): pilot about $2.06 per month, about $9 with a firewall; full lean product about $23.63 including a $7 firewall.
+- **Your work on top of it:** (1) wire it into `up`: after `terraform plan`, run `terraform show -json`, run the estimator, show the table and the traps, and refuse to continue if any trap resource appears or the total exceeds the owner's cap; (2) write `verify_prices.py` that checks every price marked unverified against AWS's public price list (`https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/index.json`, region us-east-2) and reports mismatches; (3) add a usage file per release-one feature so each feature has its own cost line; (4) run it on the real plan once your Terraform exists and tell me which resource types it could not price. Keep infracost as an optional second opinion only.
+- I have not run plan mode against a real plan. Treat any mismatch as a bug in the estimator and tell me.
